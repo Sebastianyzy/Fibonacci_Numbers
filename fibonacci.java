@@ -1,8 +1,8 @@
 public class fibonacci {
 	public static void main(String args[]) {
-		System.out.println("print ");
-		for (int i = 0; i < 26; i++) {
-			String f = Integer.toString(i * 20);
+		System.out.println("print out fibonacci number up to 500:");
+		for (int i = 0; i <= 500; i++) {
+			String f = Integer.toString(i);
 			System.out.println("F(" + f + ") is:" + " " + fib(f));
 		}
 	}
